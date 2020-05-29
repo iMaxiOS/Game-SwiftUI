@@ -82,8 +82,8 @@ struct Card: View {
                         .padding(.vertical, 12)
                         .padding(.horizontal, 25)
                         .background(Capsule().stroke(Color.white, lineWidth: 2))
-                        .offset(y: -35)
                 }
+                .offset(y: -35)
             }
             .padding(.trailing)
         }

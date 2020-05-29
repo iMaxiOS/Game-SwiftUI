@@ -40,8 +40,7 @@ struct Home: View {
                 .padding(.bottom)
             }
         }
-        .background(LinearGradient(gradient: .init(colors: [Color("Color"), Color("Color1")]), startPoint: .top, endPoint: .bottom))
-        .edgesIgnoringSafeArea(.all)
+        .background(LinearGradient(gradient: .init(colors: [Color("Color"),Color("Color1")]), startPoint: .top, endPoint: .bottom).edgesIgnoringSafeArea(.all))
         .edgesIgnoringSafeArea(.bottom)
     }
 }
